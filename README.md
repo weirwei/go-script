@@ -12,13 +12,14 @@ cd go-script/gocheck
 ```shell
 go install
 ```
-### 用法
-使用前先安装golangci-lint 
+
+使用前需先安装golangci-lint
 ```shell
 # 安装golangci-lint
 go get github.com/golangci/golangci-lint/cmd/golangci-lint
 go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 ```
+### 用法
 ```shell
 # 使用方法
 gocheck -h
